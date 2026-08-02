@@ -60,7 +60,7 @@ pipeline {
         always {
 
             archiveArtifacts artifacts: '''
-            logs/**
+            logs/**,
             playwright-report/**
             '''
 
